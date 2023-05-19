@@ -1,6 +1,6 @@
 import Card from '../../components/cards/Card';
 import './homePage.css';
-import { GiWorld } from 'react-icons/gi';
+import { FcNightLandscape } from 'react-icons/fc';
 
 function HomePage() {
   const cardConfig = {
@@ -13,11 +13,9 @@ function HomePage() {
     <>
       <div className="introduction">
         <h1 className="greeting">
-          Welcome to Eylanden <GiWorld />
+          Bem vindo à Eylanden <FcNightLandscape />
         </h1>
-        <p className="description">
-          A world of Dungeons & Dragons built with love
-        </p>
+        <p className="description">Um mundo de D&D criado com carinho</p>
       </div>
       <section className="cards-section">
         <Card config={cardConfig}></Card>
