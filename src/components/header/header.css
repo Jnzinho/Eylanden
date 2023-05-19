@@ -50,9 +50,9 @@ a {
 }
 
 a:hover {
-  color: rgb(208, 208, 224);
+  color: #7e5a82;
 }
 
 a:active {
-  color: rgb(173, 173, 186);
+  color: #ad94af;
 }

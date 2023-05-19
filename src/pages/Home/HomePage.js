@@ -16,8 +16,7 @@ function HomePage() {
           Welcome to Eylanden <GiWorld />
         </h1>
         <p className="description">
-          A world of dungeons and dragons built with love, here you can find
-          information about locations, characters and the sessions of my rpg
+          A world of Dungeons & Dragons built with love
         </p>
       </div>
       <section className="cards-section">

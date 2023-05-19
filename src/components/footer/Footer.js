@@ -4,11 +4,31 @@ import { FaGithub, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 function Footer() {
   return (
     <footer className="footer">
-      <FaGithub className="icon"></FaGithub>
-      <FaTwitter className="icon"></FaTwitter>
+      <a rel="noreferrer" target="_blank" href="https://github.com/Jnzinho">
+        <FaGithub className="icon"></FaGithub>
+      </a>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        href="https://twitter.com/joaovitorjn"
+      >
+        <FaTwitter className="icon"></FaTwitter>
+      </a>
       <p>Made by Jnzinho</p>
-      <FaInstagram className="icon"></FaInstagram>
-      <FaLinkedin className="icon"></FaLinkedin>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        href="https://www.instagram.com/joaovitorjn7/"
+      >
+        <FaInstagram className="icon"></FaInstagram>
+      </a>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        href="https://www.linkedin.com/in/joaovitorjn"
+      >
+        <FaLinkedin className="icon"></FaLinkedin>
+      </a>
     </footer>
   );
 }

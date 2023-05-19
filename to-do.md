@@ -2,5 +2,4 @@
 - Create locations page
 - Upload to web
 - Design routes with react-router
-- Add links to social media
 - Make responsive
