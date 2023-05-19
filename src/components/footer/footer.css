@@ -1,0 +1,19 @@
+.footer {
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  background-color: lavender;
+  right: 0;
+  height: 40px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #59365c;
+  gap: 10px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}

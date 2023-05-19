@@ -1,0 +1,33 @@
+.cards-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+
+.introduction {
+  margin: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #59365c;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  gap: 0.3vw;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
