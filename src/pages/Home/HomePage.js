@@ -2,23 +2,30 @@ import Card from '../../components/cards/Card';
 import './homePage.css';
 import { FcNightLandscape } from 'react-icons/fc';
 
-function HomePage() {
-  const cardConfig = {
-    title: 'Characters',
+const cards = [
+  {
+    title: 'Personagens',
     background: 'https://i.redd.it/figc76qvn0061.jpg',
-  };
-
-  const cardConfig2 = {
-    title: 'Locations',
+    to: 'personagens',
+  },
+  {
+    title: 'Localizações',
     background:
       'https://img1.goodfon.com/wallpaper/nbig/7/5d/patagonia-landscape-panoramic.jpg',
-  };
-
-  const cardConfig3 = {
-    title: 'Sessions',
+    to: '/locais',
+  },
+  {
+    title: 'Sessões',
     background:
       'https://i0.wp.com/nerdarchy.com/wp-content/uploads/2018/03/RPG-group-2.jpg?fit=1200%2C720&ssl=1',
-  };
+    to: '/sessoes',
+  },
+];
+
+function HomePage() {
+  const renderedCards = cards.map((card) => {
+    return <Card key={Math.random()} config={card}></Card>;
+  });
 
   return (
     <>
@@ -28,11 +35,7 @@ function HomePage() {
         </h1>
         <p className="description">Um mundo de D&D criado com carinho</p>
       </div>
-      <section className="cards-section">
-        <Card config={cardConfig}></Card>
-        <Card config={cardConfig2}></Card>
-        <Card config={cardConfig3}></Card>
-      </section>
+      <section className="cards-section">{renderedCards}</section>
     </>
   );
 }

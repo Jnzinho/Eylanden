@@ -1,11 +1,10 @@
 .footer {
-  margin-top: auto;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  background-color: lavender;
-  right: 0;
-  height: 40px;
   left: 0;
+  width: 100%;
+  background-color: lavender;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

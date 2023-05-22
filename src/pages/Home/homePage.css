@@ -1,12 +1,5 @@
-.cards-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5vw;
-}
-
 .introduction {
-  margin: 5vh;
+  margin: 1vh 5vh 5vh 5vh;
   display: flex;
   flex-direction: column;
   gap: 10px;

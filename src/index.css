@@ -9,9 +9,19 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  margin-bottom: 5vh;
 }
