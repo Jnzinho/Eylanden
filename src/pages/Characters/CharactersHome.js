@@ -28,26 +28,13 @@ const cards = [
 ];
 
 function CharactersHome() {
-  const renderedLine1 = cards.map((card, index) => {
-    if (index <= 2) {
-      return <Card key={Math.random()} config={card}></Card>;
-    } else {
-      return undefined;
-    }
-  });
-
-  const renderedLine2 = cards.map((card, index) => {
-    if (index > 2 && index <= 5) {
-      return <Card key={Math.random()} config={card}></Card>;
-    } else {
-      return undefined;
-    }
+  const renderedCards = cards.map((card, index) => {
+    return <Card key={Math.random()} config={card}></Card>;
   });
 
   return (
     <div>
-      <div className="cards-section">{renderedLine1}</div>
-      <div className="cards-section">{renderedLine2}</div>
+      <div className="cards-section">{renderedCards}</div>
     </div>
   );
 }

@@ -19,9 +19,10 @@ code {
 }
 
 .cards-section {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+  justify-items: center;
   align-items: center;
-  gap: 5vw;
   margin-bottom: 5vh;
 }
