@@ -14,7 +14,7 @@ const cards = [
 
 function LocationsHome() {
   const renderedCards = cards.map((card) => {
-    return <Card config={card}></Card>;
+    return <Card key={Math.random()} config={card}></Card>;
   });
 
   return <div className="cards-section">{renderedCards}</div>;

@@ -3,6 +3,10 @@ import ErrorPage from './pages/Error/ErrorPage';
 import HomePage from './pages/Home/HomePage';
 import Layout from './pages/Layout';
 import CharactersHome from './pages/Characters/CharactersHome';
+import Kick from './pages/Characters/Kick/KickPage';
+import Ygg from './pages/Characters/Ygg/YggPage';
+import Quarrion from './pages/Characters/Quarrion/QuarrionPage';
+import Seraphine from './pages/Characters/Seraphine/SeraphinePage';
 import LocationsHome from './pages/Locations/LocationsHome';
 import SessionsHome from './pages/Sessions/SessionsHome';
 
@@ -17,15 +21,31 @@ const router = createBrowserRouter([
         element: <HomePage></HomePage>,
       },
       {
-        path: '/personagens',
+        path: 'personagens',
         element: <CharactersHome></CharactersHome>,
       },
       {
-        path: '/sessoes',
+        path: 'personagens/kick',
+        element: <Kick></Kick>,
+      },
+      {
+        path: 'personagens/yggdrasil',
+        element: <Ygg></Ygg>,
+      },
+      {
+        path: 'personagens/quarrion',
+        element: <Quarrion></Quarrion>,
+      },
+      {
+        path: 'personagens/seraphine',
+        element: <Seraphine></Seraphine>,
+      },
+      {
+        path: 'sessoes',
         element: <SessionsHome></SessionsHome>,
       },
       {
-        path: '/locais',
+        path: 'locais',
         element: <LocationsHome></LocationsHome>,
       },
     ],
