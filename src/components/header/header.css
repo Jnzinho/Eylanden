@@ -15,12 +15,6 @@ header {
   border-bottom: rgb(212, 212, 231) 0.5px solid;
 }
 
-@media only screen and (max-width: 600px) {
-  header {
-    font-size: 16px;
-  }
-}
-
 .title {
   font-size: 22px;
   font-weight: bold;
@@ -64,4 +58,34 @@ a {
 
 a:hover {
   color: #7e5a82;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .left-side {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  body {
+    padding-top: 14vh;
+  }
 }
