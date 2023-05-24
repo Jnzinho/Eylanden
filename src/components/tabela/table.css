@@ -1,0 +1,38 @@
+.table-container {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #b5afc6;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2vh 10vw 2vh 10vw;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: center;
+  font-size: 1em;
+}
+
+td {
+  background-color: lavender;
+  color: #59365c;
+}
+
+th {
+  background-color: #59365c;
+  color: #b5afc6;
+}
+
+td:hover {
+  background-color: rgb(207, 207, 222);
+  color: #59365c;
+}
+
+h1 {
+  color: #59365c;
+  text-align: center;
+}
