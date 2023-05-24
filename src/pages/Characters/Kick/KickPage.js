@@ -10,6 +10,8 @@ function Kick() {
     raca: 'Halfling',
     classe: 'Gunslinger',
     antecedente: 'Mecânico',
+    imagem:
+      'https://cdn.donmai.us/original/e1/65/e165cc7311d8c63edc96ab17ccb8989a.jpg',
   };
 
   return (

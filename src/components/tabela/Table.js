@@ -4,11 +4,7 @@ function Table({ personagem }) {
   return (
     <div className="container">
       <div className="table-container">
-        <img
-          className="char-pic"
-          alt="kick"
-          src="https://cdn.donmai.us/original/e1/65/e165cc7311d8c63edc96ab17ccb8989a.jpg"
-        ></img>
+        <img className="char-pic" alt="char-pic" src={personagem.imagem}></img>
         <table>
           <tbody>
             <tr>
