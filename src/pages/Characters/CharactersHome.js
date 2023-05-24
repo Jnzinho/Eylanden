@@ -14,7 +14,7 @@ const cards = [
       'https://static1.srcdn.com/wordpress/wp-content/uploads/2022/02/Critical-Role-Mighty-Nein-Origins-Tealeaf-Art.jpg',
   },
   {
-    title: 'Quarrion',
+    title: 'Quarion',
     to: 'quarrion',
     background:
       'https://arcaneeye.com/wp-content/uploads/2020/03/whisper_agent_by_deruchenko_alexander.0-769x481.jpg',

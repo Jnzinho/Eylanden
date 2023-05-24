@@ -1,3 +1,9 @@
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
 .table-container {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -8,6 +14,11 @@
   padding: 5px;
   border-radius: 5px;
   margin: 2vh 10vw 2vh 10vw;
+  max-width: 80vw;
+}
+
+.char-pic {
+  height: 30vh;
 }
 
 th,
