@@ -15,7 +15,7 @@ const cards = [
   },
   {
     title: 'Quarion',
-    to: 'quarrion',
+    to: 'quarion',
     background:
       'https://arcaneeye.com/wp-content/uploads/2020/03/whisper_agent_by_deruchenko_alexander.0-769x481.jpg',
   },

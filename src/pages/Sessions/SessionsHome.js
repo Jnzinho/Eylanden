@@ -5,12 +5,14 @@ const cards = [
     label: 'Sessão 1',
     title: 'A emboscada',
     background: 'https://images8.alphacoders.com/550/550174.jpg',
+    to: '1',
   },
   {
     label: 'Sessão 2',
     title: 'O acampamento',
     background:
       'https://i.pinimg.com/564x/1e/39/5d/1e395d67863843385a7d9633faf3e721.jpg',
+    to: '2',
   },
 ];
 

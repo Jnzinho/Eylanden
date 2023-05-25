@@ -9,6 +9,7 @@ import Quarrion from './pages/Characters/Quarrion/QuarrionPage';
 import Seraphine from './pages/Characters/Seraphine/SeraphinePage';
 import LocationsHome from './pages/Locations/LocationsHome';
 import SessionsHome from './pages/Sessions/SessionsHome';
+import Session1 from './pages/Sessions/Session1';
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
         element: <Ygg></Ygg>,
       },
       {
-        path: 'personagens/quarrion',
+        path: 'personagens/quarion',
         element: <Quarrion></Quarrion>,
       },
       {
@@ -43,6 +44,14 @@ const router = createBrowserRouter([
       {
         path: 'sessoes',
         element: <SessionsHome></SessionsHome>,
+      },
+      {
+        path: 'sessoes/1',
+        element: <Session1></Session1>,
+      },
+      {
+        path: 'sessoes/2',
+        element: '',
       },
       {
         path: 'locais',
